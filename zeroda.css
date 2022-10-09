@@ -1,0 +1,438 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    
+
+
+}
+ 
+.header{
+ width: 100%;
+height: 70px;
+
+border: solid 1px rgb(230, 222, 222);
+background-color: white;
+position: relative;
+position: fixed;
+z-index: 9;  
+
+}
+
+
+
+
+.header img{
+    width: 153px;
+    height: 20px;
+    position:absolute;
+    left: 231px;
+    top: 22px;
+}
+.header ul{
+    list-style: none;
+display: flex;
+position: absolute;
+    left: 800px;
+    top: 8px;
+ 
+}
+.header li{
+    margin-left: 30px;
+    color: #666;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.sec-1{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+text-align: center;
+
+
+
+}
+.sec-1 img{
+   max-width: 500px;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+
+}
+
+.sec-1 button{
+    position: absolute;
+    bottom: 80px;
+    left: 650px;
+    background-color: #387ed1;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}  
+.sec-1 label{
+    position: absolute;
+    bottom: 200px;
+    left: 530px;
+    font-size: 3rem;
+    opacity: 0.8;
+    font-weight: 500;
+    
+}  
+.sec-1 p{
+    position: absolute;
+    bottom: 145px;
+    left: 400px;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+.sec-2{
+    width:100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+
+}
+.sec-2-left{
+    width: 50%;
+    height: 450px;
+    
+    position: relative;
+}
+.sec-2-left img{
+    position: absolute;
+    left: 150px;
+}
+.sec-2-right{
+    width:50%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+
+}
+.sec-2-right1{
+    width: 500px;
+    
+    height: 150px;
+    position: relative;
+
+}
+.sec-2-right1 label{
+    font-size: 2rem;
+    color: #424242;;
+    font-weight: 500;
+
+}
+.sec-2-right1 p{
+    line-height: 27px;
+}
+.sec-2-right2{
+    width: 500px;
+    height: 200px;
+    
+    position: relative;
+
+}
+.ul2{
+    position: absolute;
+    left: 250px;
+    bottom: 70px;
+}
+.sec-2-right2 li{
+    margin-top: 20px;
+}
+.sec2-right-3{
+    position: relative;
+    width: 70%;
+    
+    height: 100px ;
+
+}
+.sec2-right-3 img{
+    width: 100%;
+
+}
+.sec-3{
+    width: 100%;
+    height: 300px;
+
+    position: relative;
+    text-align: center;
+    
+}
+.sec-3 label{
+    font-size: 2rem;
+    color: #424242;;
+    font-weight: 500;
+    
+    
+
+
+}
+.sec-3 p{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    line-height: 36px;
+    
+}
+.inner-sec-3{
+    
+    position: relative;
+    top: 115px;
+}
+.sec-4{
+    
+    position: relative;
+    text-align: center;
+}
+.sec-5{
+    width: 100%;
+    height: 180px;
+    
+    text-align: center;
+    position: relative;
+
+}
+.sec-6{
+    width: 100%;
+    
+    height: 380px;
+    position: relative;
+    display: flex;
+}
+.sec-6-left{
+    
+    width: 50%;
+    height: 200px;
+    
+    
+
+}
+.sec-6-left label{
+    color:#424242;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    left: 285px;
+
+}
+.sec-6-left p{
+    line-height: 30px;
+    position: relative;
+    left: 285px;
+}
+.sec-6-right{
+    width:50%;
+    
+    height:200px;
+    display: flex;
+    position: relative;
+    
+
+}
+.sec-6-right1,.sec-6-right2{
+    width:33%;
+    height: 185px;
+    background-color:white;
+    border: solid 1px rgb(202, 194, 194); 
+    border-radius: 2px;
+    font: weight 100px;
+    text-align: center;
+    position: relative;
+    
+     
+}
+.sec-6-right1 h2{
+    font-size: 2.75rem;
+    color: #424242;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 17px;
+}
+.sec-6-right2 h2{
+    font-size: 2.75rem;
+    color: #424242;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 17px;
+
+}
+.sec-6-right1 p{
+line-height: 28px;
+position: relative;
+bottom: 20px;
+letter-spacing: 1px;
+}
+.sec-6-right2 p{
+    line-height: 28px;
+position: relative;
+bottom: 20px;
+letter-spacing: 1px;
+
+}
+.sec-7{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+    position: relative;
+    display: flex;
+
+}
+.sec-7-left{
+    width: 50%;
+    height: 350px;
+    
+    text-align: center;
+}
+.sec-7-right{
+    width: 50%;
+    height: 350px;
+    
+
+}
+.sec-7-right h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #424242;
+
+}
+.sec-7-right p{
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.sec-8{
+    width: 100%;
+    height: 400px;
+    
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec-8 h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #424242;
+}
+.sec-8 button{
+    background-color: #387ed1;
+    color: white;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.last-sec{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color:#fafafb;
+    
+    display: flex;
+    justify-content:center;
+    border-top: 1px solid #eee;
+    
+
+}
+.last1,.last2,.last3,.last4{
+    width: 280px;
+    height: 400px;
+    
+
+}
+.last1 img{
+    width: 153px;
+    height: 20px;
+
+}
+.last-sec ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+.last-sec li{
+    margin-top: 20px;
+    color: #424242;
+    
+}
+.list-head{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.footer-para{
+    width: 100%;
+    height: 400px;
+    background-color: #fafafb;
+    font-size: 0.65rem;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    color:#9b9b9b;
+
+}
+.footer{
+    width: 100%;
+   background-color: #fafafb;; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.footer-elements{
+    width: 850px;
+    background-color: #fafafb;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem; 
+    color: #9b9b9b;
+    font-weight: 500;
+    
+
+
+}
+.blue-elements{
+    color: #387ed1;
+}
+.blue-elements:hover{
+    color: #424242;
+}
+button:hover{
+   background-color: #083c7a;
+}
+.header li:hover{
+    color: #387ed1;
+}
+
+.footer-elements:hover{
+    color: #083c7a;
+}
+.last-sec li:hover{
+    color:#387ed1;
+
+}
+
+
+
+
+    
+    
+
+
+
+ 
+
+
+
+
